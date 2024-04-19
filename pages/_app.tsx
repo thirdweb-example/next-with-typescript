@@ -15,7 +15,7 @@ import { Sepolia, Polygon } from "@thirdweb-dev/chains";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider
-      clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
+      clientId="eb0c0bc9e8ac4f2bbe758ce460ef6131"
       activeChain={Sepolia}
       authConfig={{
         // Set this to your domain to prevent phishing attacks
