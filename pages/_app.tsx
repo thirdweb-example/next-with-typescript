@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         authUrl: "/api/auth",
       }}
       supportedWallets={[metamaskWallet(), coinbaseWallet(), safeWallet()]}
-      // supportedChains={[Polygon, Sepolia, O]}
+      supportedChains={[Polygon, Sepolia]}
     >
       <Component {...pageProps} />
     </ThirdwebProvider>
